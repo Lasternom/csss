@@ -41,6 +41,7 @@
     
     .bylink.comments.may-blank {
        font-size: 20px!important;
+        margin-bottom: 20px;
     }
     
     #header-bottom-left {
@@ -82,6 +83,15 @@
         height: 50px!important;
     }
     
+    
+    
+    .expando-button.collapsed.hide-when-pinned.selftext {
+    background-position: 0px -115px!important;
+    }
+    
+        .expando-button.collapsed.hide-when-pinned.selftext:hover {
+    background-position: 0px -115px!important;
+    }
     
     .expando-button.collapsed.hide-when-pinned.video {
     background-position: 0px -115px!important;
@@ -196,159 +206,15 @@
     .midcol.unvoted {
         display: none;
     }
+    
+    
+    
+    img {
+  height: 200%;
+  max-width: 170px;
 }
-    
-    
-    /* ==UserStyle==
-@name           old.reddit.com - Jan 2024
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
-@description    A new userstyle
-@author         Me
-==/UserStyle== */
-
-@-moz-document domain("old.reddit.com") {
-    .side {
-        display:none;
+    .thumbnail {
+        width:200px;
     }
-    
-    .post-sharing-button {
-        display:none;
-    }
-    
-    .link-save-button.save-button.login-required {
-        display:none;
-    }
-    
-    .reportbtn.access-required {
-        display:none;
-    }
-    
-    .noCtrlF {
-        display:none;
-    }
-    
-    .author.may-blank.id-t2_2gtxexm3 {
-        display:none;
-    }
-    
-    .tagline {
-       font-size: 1px!important;
-    }
-    
-    .tagline a {
-       font-size: 20px!important;
-    }
-    
-    .bylink.comments.may-blank {
-       font-size: 20px!important;
-    }
-    
-    #header-bottom-left {
-        font-size: 20px;
-    }
-    
-    #header-img {
-        height: 200px;
-    }
-    
-    #header-img.default-header {
-        height: 100px;
-        background-image:unset!important;
-        background-color: black;
-    }
-    
-    
-    
-    
-      .live-timestamp {
-       display: none;
-    }
-    
-    .author {
-       display: none;
-    }
-    
-    .userTagLink.RESUserTagImage.truncateTag {
-       display: none;
-    }
-    
-    .flairrichtext.flaircolordark.flair {
-       display: none;
-    }
-    
-    .expando-button {
-        background-size:50px;
-        width: 50px!important;
-        height: 50px!important;
-    }
-    
-    
-    .expando-button.collapsed.hide-when-pinned.video {
-    background-position: 0px -115px!important;
-    }
-    
-    .expando-button.collapsed.hide-when-pinned.video:hover {
-    background-position: 0px -115px!important;
-    }
-    
-    .expando-button.hide-when-pinned.crosspost.collapsed {
-    background-position: 0px -115px!important;
-    }
-    
-    .expando-button.hide-when-pinned.crosspost.collapsed:hover {
-    background-position: 0px -115px!important;
-    }
-    
-    .expando-button.collapsed.video {
-    background-position: 0px -115px!important;
-    }
-    
-    .expando-button.collapsed.video:hover {
-    background-position: 0px -115px!important;
-    }
-    
-    .expando-button.collapsed.selftext {
-    background-position: 0px -115px!important;
-    }
-    
-       .expando-button.collapsed.selftext:hover {
-    background-position: 0px -115px!important;
-    }
-    
-    .title span {
-        display: none;
-    }
-    
-    .rank {
-        display: none;
-    }
-    
-    .mobile-web-redirect-bar {
-        display: none;
-    }
-    
-    #sr-header-area {
-        display: none;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    .res-image .res-image-media {
-        max-width: 90% !important;
-        max-height: 90% !important;
-    }
-    
+}
    
-    
-    
-    
-}
