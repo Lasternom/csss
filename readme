@@ -1,0 +1,354 @@
+/* ==UserStyle==
+@name           old.reddit.com - Jan 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("old.reddit.com") {
+    .side {
+        display:none;
+    }
+    
+    .post-sharing-button {
+        display:none;
+    }
+    
+    .link-save-button.save-button.login-required {
+        display:none;
+    }
+    
+    .reportbtn.access-required {
+        display:none;
+    }
+    
+    .noCtrlF {
+        display:none;
+    }
+    
+    .author.may-blank.id-t2_2gtxexm3 {
+        display:none;
+    }
+    
+    .tagline {
+       font-size: 1px!important;
+    }
+    
+    .tagline a {
+       font-size: 20px!important;
+    }
+    
+    .bylink.comments.may-blank {
+       font-size: 20px!important;
+    }
+    
+    #header-bottom-left {
+        font-size: 20px;
+    }
+    
+    #header-img {
+        height: 200px;
+    }
+    
+    #header-img.default-header {
+        height: 100px;
+        background-image:unset!important;
+        background-color: black;
+    }
+    
+    
+    
+    
+      .live-timestamp {
+       display: none;
+    }
+    
+    .author {
+       display: none;
+    }
+    
+    .userTagLink.RESUserTagImage.truncateTag {
+       display: none;
+    }
+    
+    .flairrichtext.flaircolordark.flair {
+       display: none;
+    }
+    
+    .expando-button {
+        background-size:50px;
+        width: 50px!important;
+        height: 50px!important;
+    }
+    
+    
+    .expando-button.collapsed.hide-when-pinned.video {
+    background-position: 0px -115px!important;
+    }
+    
+    .expando-button.collapsed.hide-when-pinned.video:hover {
+    background-position: 0px -115px!important;
+    }
+    
+    .expando-button.hide-when-pinned.crosspost.collapsed {
+    background-position: 0px -115px!important;
+    }
+    
+    .expando-button.hide-when-pinned.crosspost.collapsed:hover {
+    background-position: 0px -115px!important;
+    }
+    
+    .expando-button.collapsed.video {
+    background-position: 0px -115px!important;
+    }
+    
+    .expando-button.collapsed.video:hover {
+    background-position: 0px -115px!important;
+    }
+    
+    .expando-button.collapsed.selftext {
+    background-position: 0px -115px!important;
+    }
+    
+       .expando-button.collapsed.selftext:hover {
+    background-position: 0px -115px!important;
+    }
+    
+    .title span {
+        display: none;
+    }
+    
+    .rank {
+        display: none;
+    }
+    
+    .mobile-web-redirect-bar {
+        display: none;
+    }
+    
+    #sr-header-area {
+        display: none;
+    }
+    
+    
+    .expand {
+        height: 20px;
+    }
+    
+    
+    .embed-comment {
+        display: none;
+    }
+    
+    .comment-save-button.save-button.login-required {
+        display: none;
+    }
+    
+    .res-image .res-image-media {
+        max-width: 90% !important;
+        max-height: 90% !important;
+    }
+    
+    
+     .infobar.commentsignupbar {
+        display: none;
+    }
+    
+    
+    .title {
+        margin-bottom: 20px!important;
+    }
+    
+    
+    .title.may-blank.outbound {
+    font-size: 30px;
+    }
+    
+   .bylink.comments.may-blank {
+    font-size: 30px!important;
+    }
+    
+    
+    
+    .title.may-blank {
+    font-size: 30px; 
+    }
+    .link .flat-list {
+   text-align: right; 
+    }
+    
+    
+    .entry {
+     padding-right: 5px;
+     margin-bottom: 50px!important;
+    }
+    
+    .tagline {
+     padding: 50px 0px 25px 0px!important;
+    }
+    .tagline a {
+     padding: 25px !important;
+        background-color: green;
+    }
+    
+    
+    .midcol.unvoted {
+        display: none;
+    }
+}
+    
+    
+    /* ==UserStyle==
+@name           old.reddit.com - Jan 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("old.reddit.com") {
+    .side {
+        display:none;
+    }
+    
+    .post-sharing-button {
+        display:none;
+    }
+    
+    .link-save-button.save-button.login-required {
+        display:none;
+    }
+    
+    .reportbtn.access-required {
+        display:none;
+    }
+    
+    .noCtrlF {
+        display:none;
+    }
+    
+    .author.may-blank.id-t2_2gtxexm3 {
+        display:none;
+    }
+    
+    .tagline {
+       font-size: 1px!important;
+    }
+    
+    .tagline a {
+       font-size: 20px!important;
+    }
+    
+    .bylink.comments.may-blank {
+       font-size: 20px!important;
+    }
+    
+    #header-bottom-left {
+        font-size: 20px;
+    }
+    
+    #header-img {
+        height: 200px;
+    }
+    
+    #header-img.default-header {
+        height: 100px;
+        background-image:unset!important;
+        background-color: black;
+    }
+    
+    
+    
+    
+      .live-timestamp {
+       display: none;
+    }
+    
+    .author {
+       display: none;
+    }
+    
+    .userTagLink.RESUserTagImage.truncateTag {
+       display: none;
+    }
+    
+    .flairrichtext.flaircolordark.flair {
+       display: none;
+    }
+    
+    .expando-button {
+        background-size:50px;
+        width: 50px!important;
+        height: 50px!important;
+    }
+    
+    
+    .expando-button.collapsed.hide-when-pinned.video {
+    background-position: 0px -115px!important;
+    }
+    
+    .expando-button.collapsed.hide-when-pinned.video:hover {
+    background-position: 0px -115px!important;
+    }
+    
+    .expando-button.hide-when-pinned.crosspost.collapsed {
+    background-position: 0px -115px!important;
+    }
+    
+    .expando-button.hide-when-pinned.crosspost.collapsed:hover {
+    background-position: 0px -115px!important;
+    }
+    
+    .expando-button.collapsed.video {
+    background-position: 0px -115px!important;
+    }
+    
+    .expando-button.collapsed.video:hover {
+    background-position: 0px -115px!important;
+    }
+    
+    .expando-button.collapsed.selftext {
+    background-position: 0px -115px!important;
+    }
+    
+       .expando-button.collapsed.selftext:hover {
+    background-position: 0px -115px!important;
+    }
+    
+    .title span {
+        display: none;
+    }
+    
+    .rank {
+        display: none;
+    }
+    
+    .mobile-web-redirect-bar {
+        display: none;
+    }
+    
+    #sr-header-area {
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .res-image .res-image-media {
+        max-width: 90% !important;
+        max-height: 90% !important;
+    }
+    
+   
+    
+    
+    
+}
