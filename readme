@@ -45,7 +45,7 @@
     }
     
     #header-bottom-left {
-        font-size: 20px;
+        font-size: 16px;
     }
     
     #header-img {
@@ -56,6 +56,10 @@
         height: 100px;
         background-image:unset!important;
         background-color: black;
+    }
+    
+    .title.may-blank{
+       font-size: 22px!important;
     }
     
     
@@ -78,12 +82,74 @@
     }
     
     .expando-button {
-        background-size:50px;
+            background-size: 100%;
         width: 50px!important;
         height: 50px!important;
+        padding: 10px;
+  margin: 20px 100px 0px 100px!important;
     }
     
     
+    .expando-button.collapsed.hide-when-pinned.video{
+        padding: 10px;
+  margin: 20px 100px 0px 100px;
+    }
+    
+    
+    .expando-button.hide-when-pinned.video.expanded{
+        padding: 10px;
+  margin: 20px 100px 0px 100px;
+    }
+    
+    
+    .expando-button.image.expanded{
+        padding: 10px;
+  margin: 10px 100px 0px 100px;
+    }
+    
+    
+    .expando-button.collapsed.image {
+        padding: 10px;
+  margin: 10px 100px 0px 100px;
+    }
+    
+     .expando-button.collapsed.selftext {
+        padding: 10px;
+  margin: 10px 100px 0px 100px;
+    }
+    
+    .expando-button.video-muted.collapsed.expando-button-duplicate{
+    background-position: 0px 0px!important;
+        background-size: 90%;
+    }
+    
+    
+    
+    
+    .expando-button.image.collapsed.expando-button-duplicate {
+    background-position: 0px 0px!important;
+        background-size: 90%;
+    }
+        .expando-button.image.collapsed.expando-button-duplicate:hover {
+    background-position: 0px 0px!important;
+        background-size: 90%;
+    }
+    
+    .expando-button.collapsed.image{
+    background-position: 0px 0px!important;
+        background-size: 90%;
+    }
+    
+    
+    .expando-button.collapsed.image:hover {
+    background-position: 0px 0px!important;
+        background-size: 90%;
+    }
+    
+    .expando-button.hide-when-pinned.selftext.expanded {
+    padding: 10px;
+    margin: 10px 100px 0px 100px;
+    }
     
     .expando-button.collapsed.hide-when-pinned.selftext {
     background-position: 0px -115px!important;
@@ -99,6 +165,7 @@
     
     .expando-button.collapsed.hide-when-pinned.video:hover {
     background-position: 0px -115px!important;
+        
     }
     
     .expando-button.hide-when-pinned.crosspost.collapsed {
@@ -110,19 +177,93 @@
     }
     
     .expando-button.collapsed.video {
-    background-position: 0px -115px!important;
+    background-position: 0px -140px!important;
+        background-size: 90%;
+          padding: 10px;
+  margin: 10px 100px 0px 100px;
     }
     
     .expando-button.collapsed.video:hover {
-    background-position: 0px -115px!important;
+    background-position: 0px -140px!important;
+        background-size: 90%;
+          padding: 10px;
+  margin: 10px 100px 0px 100px;
     }
     
     .expando-button.collapsed.selftext {
-    background-position: 0px -115px!important;
+     background-position: 0px -140px!important;
+        background-size: 90%;
+    }
+    .expando-button.collapsed.selftext:hover {
+     background-position: 0px -140px!important;
+        background-size: 90%;
     }
     
        .expando-button.collapsed.selftext:hover {
     background-position: 0px -115px!important;
+    }
+    .expando-button.hide-when-pinned.video.collapsed  {
+    background-position: 0px -215px!important;
+        background-size: 90%;
+    }
+      .expando-button.hide-when-pinned.video.collapsed:hover  {
+    background-position: 0px -204px!important;
+        background-size: 90%;
+    }
+    
+    .expando-button.hide-when-pinned.selftext.expanded {
+     background-position: 0px -355px!important;
+        background-size: 90%;
+    }
+       .expando-button.hide-when-pinned.selftext.expanded:hover {
+     background-position: 0px -355px!important;
+        background-size: 90%;
+    }
+    .expando-button.hide-when-pinned.selftext.collapsed{
+     background-position: 0px -285px!important;
+        background-size: 90%;
+    }
+    .expando-button.hide-when-pinned.selftext.collapsed:hover{
+     background-position: 0px -285px!important;
+        background-size: 90%;
+    }
+    .expando-button.hide-when-pinned.video.expanded {
+        background-position: 0px -140px!important;
+        background-size: 90%;
+        
+    }
+    .expando-button.hide-when-pinned.video.expanded:hover {
+        background-position: 0px -140px!important;
+        background-size: 90%;
+        
+    }
+    
+    
+    .expando-button.expanded.hide-when-pinned.crosspost  {
+    background-position: 0px -140px!important;
+        background-size: 90%;
+                 padding: 10px;
+  margin: 10px 100px 0px 100px;
+    }
+    
+      .expando-button.expanded.hide-when-pinned.crosspost:hover  {
+    background-position: 0px -140px!important;
+        background-size: 90%;
+                   padding: 10px;
+  margin: 10px 100px 0px 100px;
+    }
+    .expando-button.hide-when-pinned.crosspost.collapsed {
+    background-position: 0px -215px!important;
+        background-size: 90%;
+                 padding: 10px;
+  margin: 10px 100px 0px 100px;
+    }
+    
+    .expando-button.hide-when-pinned.crosspost.collapsed:hover  {
+    background-position: 0px -215px!important;
+        background-size: 90%;
+                   padding: 10px;
+  margin: 10px 100px 0px 100px;
     }
     
     .title span {
@@ -191,16 +332,26 @@
     
     .entry {
      padding-right: 5px;
-     margin-bottom: 50px!important;
+        margin-bottom:50px;
+    
     }
     
+     .entry.unvoted {
+     padding-right: 5px;
+        margin-bottom:0px;
+    
+    }
+    .top-matter{
+        background-color: #181818; 
+        padding: 20px
+    }
     .tagline {
      padding: 25px 0px 25px 0px!important;
-        height: 50px!important;
+       
     }
     .tagline a {
      padding: 25px !important;
-        background-color: green;
+      
     }
     
     
@@ -213,14 +364,16 @@
     .thumbnail img {
       height: 200%;
       max-width: 200px!important;
-        width:200px!important;
+        width:150px!important;
     }
     
     .thumbnail {
-            width:200px!important;
+            width:150px!important;
             height:200%!important;
      }
     
-    
+    .infobar {
+         display: none;
+    }
     
 }
