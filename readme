@@ -195,7 +195,7 @@
     }
     
     .tagline {
-     padding: 50px 0px 25px 0px!important;
+     padding: 10px 0px 10px 0px!important;
     }
     .tagline a {
      padding: 25px !important;
