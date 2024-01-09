@@ -210,11 +210,14 @@
     
     
     img {
-  height: 200%;
-  max-width: 170px;
-}
-    .thumbnail {
-        width:200px;
+      height: 200%;
+      max-width: 170px;
     }
+    
+    .thumbnail {
+            width:200px;
+     }
+    
+    
+    
 }
-   
