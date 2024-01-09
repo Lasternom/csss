@@ -78,12 +78,12 @@
     }
     
     .expando-button {
-        background-size:50px;
+        background-size:50px!important;
         width: 50px!important;
         height: 50px!important;
     }
     
-    
+   
     
     .expando-button.collapsed.hide-when-pinned.selftext {
     background-position: 0px -115px!important;
@@ -195,7 +195,8 @@
     }
     
     .tagline {
-     padding: 10px 0px 10px 0px!important;
+     padding: 25px 0px 25px 0px!important;
+        height: 50px!important;
     }
     .tagline a {
      padding: 25px !important;
@@ -211,11 +212,13 @@
     
     img {
       height: 200%;
-      max-width: 170px;
+      max-width: 200px;
+        width:200px!important;
     }
     
     .thumbnail {
-            width:200px;
+            width:200px!important;
+            height:200%!important;
      }
     
     
