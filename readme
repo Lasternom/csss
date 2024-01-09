@@ -78,12 +78,12 @@
     }
     
     .expando-button {
-        background-size:50px!important;
+        background-size:50px;
         width: 50px!important;
         height: 50px!important;
     }
     
-   
+    
     
     .expando-button.collapsed.hide-when-pinned.selftext {
     background-position: 0px -115px!important;
@@ -210,9 +210,9 @@
     
     
     
-    img {
+    .thumbnail img {
       height: 200%;
-      max-width: 200px;
+      max-width: 200px!important;
         width:200px!important;
     }
     
